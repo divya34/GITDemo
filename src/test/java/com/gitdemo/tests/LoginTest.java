@@ -11,4 +11,10 @@ public class LoginTest {
 	 LoginPage obj=new LoginPage();
 	 System.out.println(obj.add(10, 20));
   }
+  @Test
+  public void test2() {
+	  
+	 LoginPage obj=new LoginPage();
+	 System.out.println(obj.add(30, 40));
+  }
 }
